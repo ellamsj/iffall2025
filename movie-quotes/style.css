@@ -1,8 +1,13 @@
+body {
+  color: white;
+  background-color: #000000;
+}
+
 .center-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 500px;
   height: auto;
 }
 
@@ -13,35 +18,36 @@
 .action{
     font-weight: light;
     font-style: italic;
+    color: #5c5c5c;
 }
 
 .PeterVenkman{
-    color: #103981;
+    color: #8ca5d2;
     font-weight: bold;
 }
 
 .DanaBarrett{
-    color:  #851e1e;
+    color:  #cf9696;
     font-weight: bold;
 }
 
 .Mayor{
-    color:  #947621;
+    color:  #d3c49a;
     font-weight: bold;
 }
 
 .RayStantz{
-    color: #547e20;
+    color: #b0c992;
     font-weight: bold;
 }
 
 .EgonSpengler{
-    color: #6236a4;
+    color: #ab9dbf;
     font-weight: bold;
 }
 
 .WinstonZeddemore{
-    color: #a83838;
+    color: #c59090;
     font-weight: bold;
 }
 
