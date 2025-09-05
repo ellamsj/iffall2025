@@ -1,0 +1,50 @@
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
+}
+
+.center-word {
+  text-align: center;
+}
+
+.action{
+    font-weight: light;
+    font-style: italic;
+}
+
+.PeterVenkman{
+    color: #103981;
+    font-weight: bold;
+}
+
+.DanaBarrett{
+    color:  #851e1e;
+    font-weight: bold;
+}
+
+.Mayor{
+    color:  #947621;
+    font-weight: bold;
+}
+
+.RayStantz{
+    color: #547e20;
+    font-weight: bold;
+}
+
+.EgonSpengler{
+    color: #6236a4;
+    font-weight: bold;
+}
+
+.WinstonZeddemore{
+    color: #a83838;
+    font-weight: bold;
+}
+
+.allcaps{
+    text-transform: uppercase;
+}
