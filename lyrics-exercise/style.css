@@ -1,0 +1,40 @@
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
+}
+
+audio {
+  width: 50%;
+}
+
+.center-audio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-word {
+  text-align: center;
+}
+
+.stylizedtext {
+  font-family:'Shadows Into Light Two', cursive;
+  font-weight: bold;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  color: rgb(66, 63, 63);
+  font-size: 15px;
+}
+
+.subtitle{
+  font-style: italic;
+  font-weight: bold;
+  color:rgb(167, 52, 152);
+  font-size: 12px;
+}
