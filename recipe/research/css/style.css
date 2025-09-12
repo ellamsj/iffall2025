@@ -1,0 +1,58 @@
+html   {
+  color: rgb(101, 101, 101);
+  font-family: "Open Sans", sans-serif;
+  font-size: 11.5pt;
+  margin: 3rem 5rem;
+}
+
+body {
+  background-color: #cdd7ec;
+}
+
+.boxed-section {
+  border: 2px solid #ccc;  
+  padding: 10px;           
+  margin: 20px 0;          
+  border-radius: 8px;      
+  background-color: white; 
+}
+
+h1{
+    text-transform: capitalize;
+    color: rgb(0, 59, 136);
+    text-align: center;
+}
+
+h2{
+    color:rgb(81, 103, 226);
+}
+
+
+.numbered-list{
+    font-weight: bold;
+}
+
+.ingredients-img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.process-img {
+  width: 400px;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.cupcake-img {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;   
+}
+
+.indented-content {
+  margin-left: 2em;
+}
