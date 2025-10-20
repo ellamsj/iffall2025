@@ -204,7 +204,7 @@ li {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .content-grid {
@@ -212,13 +212,26 @@ li {
     }
 
     .hero {
-        height: 220px;
+        height: 280px;
     }
 
     .hero-text {
         left: 15px;
         right: 15px;
         padding: 8px 15px;
+        margin-bottom: -10px;
+    }
+
+    .intro blockquote{
+        font-size:15px
+    }
+
+    .time-summary {
+        font-size: 14.5px
+    }
+    
+    .left-col {
+        margin-top: -30px
     }
 
     .instruction-step {
@@ -234,7 +247,4 @@ li {
         margin-left: 0;
     }
 
-    .tag-list {
-        justify-content: center;
-    }
 }
