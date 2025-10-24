@@ -1,0 +1,533 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+/* Spotify */
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+/* Amazon */
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+	transition: all .2s;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+/* Twitter */
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+	background: rgb(46,191,236);
+	background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); 
+	background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); 
+	background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 );
+}
+
+/* Indiegogo */
+a#btn_indiegogo {
+	display: inline-block;
+	position: relative;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+	transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #eb1478;
+	transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+a#btn_indiegogo span {
+	position: relative;
+	z-index: 10;
+}
+
+
+/* Michael Kors */
+a#btn_mk {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin: auto;
+    margin-top: 70px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+a#btn_mk:hover {
+    background-color: #333;
+}
+
+a#btn_mk:hover img {
+    filter: brightness(0) invert(1);
+}
+
+a#btn_mk img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Lyft */
+a#btn_lyft {
+    display: block;
+    width: 80px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+a#btn_lyft:hover {
+    background-color: #ffc3ee;
+}
+
+a#btn_lyft img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin:auto;
+    margin-left: 1px;
+    transition: transform 0.3s ease;
+}
+
+a#btn_lyft:hover img {
+    animation: shift 0.6s ease-in-out;
+}
+
+@keyframes shift {
+    0% { 
+        transform: translateX(0); 
+    }
+    20% { 
+        transform: translateX(-12px); 
+    }
+    40% { 
+        transform: translateX(12px); 
+    }
+    60% { 
+        transform: translateX(-8px); 
+    }
+    80% { 
+        transform: translateX(8px); 
+    }
+    100% { 
+        transform: translateX(0); 
+    }
+}
+
+/* Coca‑Cola */
+a#btn_coca {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: radial-gradient(circle at center, #E41F26 0%, #A60000 100%);
+    border-radius: 50%;
+    margin-top: 80px;
+    padding: 20px;
+    overflow: visible;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+a#btn_coca:hover {
+    animation: fizz 0.8s ease-in-out;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.6), 0 0 10px #ff4d4d inset;
+}
+
+a#btn_coca img {
+    max-width: 150%;
+    max-height: 150%;
+    display: block;
+    margin-left:-18px;
+    margin-top:2px;
+    transition: transform 0.3s ease;
+}
+
+@keyframes fizz {
+    0% {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+    25% {
+        transform: scale(1.15) rotate(-2deg);
+        filter: brightness(1.2);
+    }
+    50% {
+        transform: scale(0.95) rotate(2deg);
+        filter: brightness(1.4);
+    }
+    75% {
+        transform: scale(1.05) rotate(-1deg);
+        filter: brightness(1.1);
+    }
+    100% {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+}
+
+/* Cartoon Network */
+a#btn_cartoon {
+    display: block;
+    width: fit-content;
+    margin-top: 55px;
+    margin-left: 55px;
+}
+
+a#btn_cartoon img {
+    max-height: 150px;
+    display: block;
+}
+
+a#btn_cartoon:hover img {
+    animation: cnBounce 0.7s ease;
+}
+
+@keyframes cnBounce {
+    0% { 
+        transform: scale(1, 1); 
+    }   
+    30% { 
+        transform: scale(1.4, 0.6); 
+    }
+    60% { 
+        transform: scale(0.9, 1.2); 
+    }
+    100% { 
+        transform: scale(1, 1); 
+    }
+}
+
+/* The New Yorker */
+a#btn_newyorker {
+    display: block;
+    width: 150px;
+    height: 70px;
+    margin-top: 90px;
+    margin-left: 50px;
+    background-color: #ffffff; 
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.4s ease;
+}
+
+a#btn_newyorker:hover {
+    background-color: #b9b9b9; 
+}
+
+a#btn_newyorker::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff; 
+    transform: translateX(0);
+    transition: transform 0.8s ease;
+}
+
+a#btn_newyorker:hover::after {
+    transform: translateX(100%);
+}
+
+a#btn_newyorker img {
+    position: relative;
+    z-index: 3;
+    max-height: 90px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Instagram */
+a#btn_instagram {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-top: 80px;
+    margin-left: 80px;
+    background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    border-radius: 16px;
+    padding: 20px;
+    background-size: 100% 100%;
+    transition: transform 0.3s ease;
+}
+
+a#btn_instagram:hover {
+    animation: diagonalMove 2.5s linear infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes diagonalMove {
+    0% { 
+        background-position: 0% 0%; 
+    }
+    50% {
+         background-position: 100% 100%; 
+    }
+    100% { 
+        background-position: 0% 0%; 
+    }
+}
+
+a#btn_instagram img {
+    max-height: 90px;
+    margin-top: -15px;
+    margin-left:-15px;
+}
+
+/* Facebook */
+a#btn_facebook {
+    display: block;
+    width: fit-content;
+    margin-top: 65px;
+    margin-left:65px;
+}
+
+a#btn_facebook img {
+    max-height: 130px;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+a#btn_facebook:hover img {
+    transform: rotateY(180deg);
+}
+
+/* IBM */
+a#btn_ibm {
+    display: block;
+    width: fit-content;
+    margin-top: 75px;
+    margin-left: 75px;
+    position: relative;
+}
+
+a#btn_ibm img {
+    max-height: 110px;
+    display: block;
+    filter: brightness(0) invert(1);
+}
+
+a#btn_ibm::before, a#btn_ibm::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('logos/ibm-logo.png') center;
+    background-size: contain;
+    transition: transform 1.5s ease;
+    z-index: 2;
+}
+
+a#btn_ibm::before {
+    top: 0;
+    clip-path: inset(0 0 50% 0);
+}
+
+a#btn_ibm::after {
+    bottom: 0;
+    clip-path: inset(50% 0 0 0);
+}
+
+a#btn_ibm:hover::before {
+    transform: translateY(-100%);
+}
+
+a#btn_ibm:hover::after {
+    transform: translateY(100%);
+}
+
+
+/* Old Navy */
+a#btn_oldnavy {
+    display: block;
+    width: fit-content;
+    margin-top:45px;
+    margin-left:-18px;
+}
+
+a#btn_oldnavy img {
+    max-height: 180px;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+a#btn_oldnavy:hover img {
+    animation: stretchBounce 0.8s ease;
+}
+
+@keyframes stretchBounce {
+    0% { 
+        transform: scaleX(1); 
+    }
+    40% { 
+        transform: scaleX(1.4); 
+    }
+    60% { 
+        transform: scaleX(0.85); 
+    }
+    80% { 
+        transform: scaleX(1.1); 
+    }
+    100%{ 
+        transform: scaleX(1); 
+    }
+}
+
+/* Samsung */
+.split-logo {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 250px; 
+}
+
+.split-logo img {
+    display: none;
+}
+
+.split-logo::before,.split-logo::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url('logos/samsung-logo.png');
+    background-size: 140px 50px;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease;
+}
+
+.split-logo::before {
+    left: 0;
+    background-position: left center;
+}
+
+.split-logo::after {
+    right: 0;
+    background-position: right center;
+}
+
+a#btn_samsung:hover .split-logo::before {
+    transform: translateX(-10px);
+}
+
+a#btn_samsung:hover .split-logo::after {
+    transform: translateX(10px);
+}
