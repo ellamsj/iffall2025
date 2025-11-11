@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Museum of Bad Art</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Kanit&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo" onclick="goTo('overview')">
+            <span class="logo-main">MUSEUM</span>
+            <br>
+            <small class="logo-sub">of Bad Art</small>
+        </div>
+
+        <nav class="top-nav">
+            <a href="#" onclick="goTo('history')">
+                history
+            </a>
+            <a href="#" onclick="goTo('artlist')">
+                collections
+            </a>
+            <a href="#" onclick="goTo('visit')">
+                visit
+            </a>
+        </nav>
+    </header>
+
+    <!-- Overview -->
+    <div id="overview" class="screen active">
+        <section class="hero">
+            <h1 class="hero-title">
+                MUSEUM
+            </h1>
+
+            <h2 class="hero-subtitle">
+                of Bad Art
+            </h2>
+            
+            <p class="mission">
+                MOBA celebrates “art too bad to be ignored.” The focus is not on mockery, but on honoring
+                earnest artistic effort. The museum encourages viewers to consider creativity, intention, and the
+                subjective nature of artistic judgment, reminding us that the courage to create is valuable, even when
+                the outcome is delightfully imperfect.
+            </p>
+        </section>
+
+        <section class="section history">
+            <img src="images/dog1.png" alt="Dog" class="image-right"/>
+            <div class="content">
+                <h2>
+                    History
+                </h2>
+
+                <br>
+
+                <p> The Museum of Bad Art began in the early 1990s after a discarded painting inspired its founders to
+                    showcase art that is “so bad it should not be ignored.”</p>
+            </div>
+        </section>
+
+        <section class="section collections">
+            <div class="content">
+                <h2>
+                    Collections
+                </h2>
+
+                <br>
+
+                <div class="artworks">
+                    <div>
+                        <img src="images/MOBAZOO.jpg" alt="MOBAZOO"/>
+                        <p>MoBA Zoo</p>
+                    </div>
+
+                    <div>
+                        <img src="images/poor-traits.jpg" alt="Poor Traits">
+                        <p>Poor Traits</p>
+                    </div>
+                </div>
+
+                <div class="button" onclick="goTo('artlist')">
+                    Explore More →
+                </div>
+            </div>
+        </section>
+
+        <section class="section visit">
+            <img src="images/dog2.png" alt="Dog2" class="image-left"/>
+            <div class="content">
+                <h2>
+                    Visit
+                </h2>
+
+                <br>
+
+                <p>Location: L1250 Massachusetts Ave Boston, MA 02125, USA</p>
+                <p> Contact: +1 (781) 444-6757 / MOBA@MuseumOfBadArt.org</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- History -->
+    <div id="history" class="screen">
+        <main class="history-screen">
+            <h2 class="section-heading history-title">
+                History
+            </h2>
+
+            <h3 class="section-heading">
+                Origins & Founding
+            </h3>
+            <p>The Museum of Bad Art began in the early 1990s when founder Scott Wilson recovered Lucy in the Field with
+                Flowers from a Boston curb. Instead of discarding it, he and friends Jerry Reilly and Marie Jackson
+                recognized its unintended charm. In 1993, the group officially founded MOBA, debuting the collection
+                with a small basement exhibition in 1994.</p>
+
+            <h3 class="section-heading">
+                Early Spaces & Growth
+            </h3>
+            <p>Interest grew quickly, and MOBA soon moved into the basement of the Dedham Community Theatre in 1995. The
+                museum became known for showcasing works created with sincere artistic intent that nonetheless went
+                humorously or dramatically off‑course. The permanent collection grew to over 700 works, with rotating
+                displays that highlighted new “masterpieces.”</p>
+
+            <h3 class="section-heading">
+                Branches, Exhibitions & Influence
+            </h3>
+            <p>MOBA expanded to additional spaces, including a gallery in the Somerville Theatre. It also curated
+                traveling and themed exhibitions, sometimes installed in unexpected environments. The museum gained
+                international media attention, sparking conversations about artistic value, taste, and failure.</p>
+
+            <h3 class="section-heading">
+                Recent Location & Continuity
+            </h3>
+            <p>After several relocations and a temporary closure during the COVID‑19 pandemic, MOBA reopened in 2022
+                inside the Dorchester Brewing Company taproom in Boston. The setting reflects the museum’s ongoing
+                commitment to accessibility, humor, and community.</p>
+        </main>
+    </div>
+
+    <!-- Collections -->
+    <div id="artlist" class="screen">
+        <main class="collection-screen">
+            <h2 class="section-heading collection-title">
+                Collections
+            </h2>
+
+            <div class="collection-list">
+                <div class="entry left">
+                    <img src="images/MOBAZOO.jpg" alt="MOBAZOO"/>
+                    <div class="entry-info">
+                        <div class="tag">
+                            MoBA Zoo →
+                        </div>
+                        <p><strong>Bruno Tiger</strong><br><em>Anonymous • June 2010</em></p>
+                    </div>
+                </div>
+
+                <div class="entry right">
+                    <img src="images/poor-traits.jpg" alt="Pink Woman Ascending"/>
+                    <div class="entry-info">
+                        <div class="tag">
+                            ← Poor Traits
+                        </div>
+                        <p><strong>Pink Woman Ascending</strong><br><em>Anonymous • October 2010</em></p>
+                    </div>
+                </div>
+
+                <div class="entry left">
+                    <img src="images/TheSportsSection.jpg" alt="Point of Impact"/>
+                    <div class="entry-info">
+                        <div class="tag">
+                            The Sports Section →
+                        </div>
+                        <p><strong>Point of Impact</strong><br><em>Anna K. • May 2011</em></p>
+                    </div>
+                </div>
+
+                <div class="entry right">
+                    <img src="images/IntheNood.jpg" alt="Chiquita"/>
+                    <div class="entry-info">
+                        <div class="tag">
+                            ← In the Nood
+                        </div>
+                        <p><strong>Chiquita</strong><br><em>Anonymous • December 2006</em></p>
+                    </div>
+                </div>
+
+                <div class="entry left">
+                    <img src="images/Dopplehangers.jpg" alt="Jazz Hands"/>
+                    <div class="entry-info">
+                        <div class="tag">
+                            Dopplehangers →
+                        </div>
+                        <p><strong>Jazz Hands</strong><br><em>Linda James • March 2014</em></p>
+                    </div>
+                </div>
+
+                <div class="entry right">
+                    <img src="images/UnlikelyLandscapes.jpg" alt="Two Trees in Love"/>
+                    <div class="entry-info">
+                        <div class="tag">
+                            ← Unlikely Landscapes
+                        </div>
+                        <p><strong>Two Trees in Love </strong><br><em>Julie Seelig • May 2006</em></p>
+                    </div>
+                </div>
+
+                <div class="entry left">
+                    <img src="images/UnseenForces.jpg" alt="Baby Atlas"/>
+                    <div class="entry-info">
+                        <div class="tag">
+                            Unseen Forces →
+                        </div>
+                        <p><strong>Baby Atlas </strong><br><em>Anonymous • September 2009</em></p>
+                    </div>
+                </div>
+
+                <div class="entry right">
+                    <img src="images/AyeAyeAye.jpg" alt="Eyes and Lips"/>
+                    <div class="entry-info">
+                        <div class="tag">
+                            ← Aye Aye Aye
+                        </div>
+                        <p><strong>Eyes and Lips </strong><br><em>Jeanne Galarneau Kent • December 2008</em></p>
+                    </div>
+                </div>
+
+                <div class="entry left">
+                    <img src="images/Oozing My Religion.jpg" alt="Madonna and Baby"/>
+                    <div class="entry-info">
+                        <div class="tag">
+                            Oozing My Religion →
+                        </div>
+                        <p><strong>Madonna and Baby </strong><br><em>Anonymous • May 2017</em></p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Visit -->
+    <div id="visit" class="screen">
+        <main class="visit-screen">
+            <h2 class="section-heading visit-title">
+                Visit Us
+            </h2>
+
+            <h3>Location</h3>
+            <p>Dorchester Brewing Co. (home to MOBA)
+                <br>
+                1250 Massachusetts Ave
+                <br>
+                Boston, MA 02125, USA
+                <br>
+                About ½ mile from the JFK/UMass Station (MBTA Red Line) and served by several bus lines.
+            </p>
+
+            <h3>Hours</h3>
+            <p>Doors open at 11:30 a.m. daily
+                <br>
+                Sunday & Monday: close at 9:00 p.m.
+                <br>
+                Tuesday-Thursday: close at 10:00 p.m.
+                <br>
+                Friday & Saturday: close at 11:00 p.m.
+                <br>
+                Note: On Friday & Saturday, no one under 21 is admitted after 6 p.m.
+            </p>
+
+            <h3>Admission</h3>
+            <p>Free — come explore art that's “too bad to be ignored.”</p>
+
+            <h3>Contact</h3>
+            <p>Phone: +1 (781) 444-6757
+                <br>
+                Email: MOBA@MuseumOfBadArt.org (general inquiries)
+            </p>
+
+            <h3>Social Media</h3>
+            <p>Facebook: @MuseumOfBadArt
+                <br>
+                Instagram: @themuseumofbadart
+            </p>
+        </main>
+    </div>
+
+    <script>
+        function goTo(viewId) {
+            document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+            const view = document.getElementById(viewId);
+            if (view) {
+                view.classList.add('active');
+                window.scrollTo(0, 0);
+            }
+
+            document.body.className = '${viewId}-active';
+        }
+    </script>
+
+</body>
+
+</html>
