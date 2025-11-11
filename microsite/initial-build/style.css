@@ -44,7 +44,6 @@ header {
 body.overview-active .logo-main {
     color: #C600D1;
 }
-
 body.overview-active .logo-sub {
     color: #007B50;
 }
@@ -53,7 +52,6 @@ body.overview-active .logo-sub {
 body.artlist-active .logo-main {
     color: #FFFFFF;
 }
-
 body.artlist-active .logo-sub {
     color: #FFE000;
 }
@@ -62,7 +60,6 @@ body.artlist-active .logo-sub {
 body.history-active .logo-main {
     color: #FFE000;
 }
-
 body.history-active .logo-sub {
     color: #FFFFFF;
 }
@@ -71,7 +68,6 @@ body.history-active .logo-sub {
 body.visit-active .logo-main {
     color: #FF4C2C;
 }
-
 body.visit-active .logo-sub {
     color: #C600D1;
 }
