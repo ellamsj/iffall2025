@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museum of Bad Art</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Kanit&display=swap" rel="stylesheet">
+</head>
+
+<body class="overview-active">
+
+    <header>
+        <img src="images/dog2.png" class="header-dog header-dog-left">
+
+        <div class="logo" onclick="goTo('overview')">
+            <span class="logo-main">MUSEUM</span><br>
+            <small class="logo-sub">of Bad Art</small>
+        </div>
+
+        <nav class="top-nav">
+            <a href="#" onclick="goTo('history')">history</a>
+            <a href="#" onclick="goTo('artlist')">collections</a>
+            <a href="#" onclick="goTo('influence')">influence</a>
+        </nav>
+
+        <img src="images/dog1.png" class="header-dog header-dog-right">
+    </header>
+
+    <!-- Overview -->
+    <div id="overview" class="screen active">
+        <section class="hero">
+            <img src="images/confetti-star.png" class="confetti medium" style="top: 12%; left: 62%;">
+            <img src="images/confetti-squiggle-1.png" class="confetti medium" style="top: 22%; left: 27%;">
+            <img src="images/confetti-star4.png" class="confetti medium" style="top: 15%; left:18%;">
+            <img src="images/confetti-squiggle-4.png" class="confetti small" style="top: 15%; left: 72%;">
+            <img src="images/confetti-dot1.png" class="confetti extrasmall" style="top: 35%; left: 70%;">
+            <img src="images/confetti-dot2.png" class="confetti small" style="top: 13%; left: 35%;">
+            <img src="images/confetti-squiggle-3.png" class="confetti small" style="top: 43%; left: 26%;">
+            <img src="images/confetti-dot3.png" class="confetti extrasmall" style="top: 28%; left:20%;">
+            <img src="images/confetti-star3.png" class="confetti extrasmall" style="top: 42%; left:21%;">
+            <img src="images/confetti-star3.png" class="confetti medium" style="top: 40%; left:65%;">
+            <img src="images/confetti-squiggle-5.png" class="confetti medium" style="top: 40%; left: 75%;">
+
+            <h1 class="hero-title">
+                MUSEUM
+            </h1>
+
+            <h2 class="hero-subtitle">
+                of Bad Art
+            </h2>
+
+            <p style="color:#007B50" class="mission">
+                MOBA celebrates “art too bad to be ignored.” The focus is not on mockery, but on honoring
+                earnest artistic effort. The museum encourages viewers to consider creativity, intention, and the
+                subjective nature of artistic judgment, reminding us that the courage to create is valuable, even when
+                the outcome is delightfully imperfect.
+            </p>
+
+            <div class="scroll-down" onclick="scrollToSection('history-section')">
+                ↓
+            </div>
+        </section>
+
+        <section class="section history" id="history-section">
+            <div class="content">
+                <img src="images/confetti-star5.png" class="confetti medium" style="top: 15%; left: 16%;">
+                <img src="images/confetti-squiggle-2.png" class="confetti medium" style="top: 15%; left: 82%;">
+                <img src="images/confetti-dot2.png" class="confetti small" style="top: 15%; left: 40%;">
+                <img src="images/confetti-star2.png" class="confetti small" style="top: 20%; left: 75%;">
+                <img src="images/confetti-dot1.png" class="confetti extrasmall" style="top: 13%; left: 60%;">
+                <img src="images/confetti-squiggle-7.png" class="confetti extrasmall" style="top: 18%; left: 35%;">
+                <img src="images/confetti-star5.png" class="confetti medium" style="top: 10%; left: 65%;">
+                <img src="images/confetti-star.png" class="confetti small" style="top: 15%; left: 28%;">
+                <img src="images/confetti-squiggle-4.png" class="confetti small" style="top: 10%; left: 24%;">
+                <h2>
+                    History
+                </h2>
+
+                <br>
+
+                <p> The Museum of Bad Art began in the early 1990s after a discarded painting inspired its founders to
+                    showcase art that is “so bad it should not be ignored.”</p>
+
+                <div class="button" onclick="goTo('history')">
+                    Explore More →
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section collections">
+            <div class="content">
+                <img src="images/confetti-star5.png" class="confetti medium" style="top: 15%; left: 78%;">
+                <img src="images/confetti-star.png" class="confetti medium" style="top: 15%; left: 17%;">
+                <img src="images/confetti-squiggle-2.png" class="confetti medium" style="top: 10%; left:72%;">
+                <img src="images/confetti-squiggle-1.png" class="confetti medium" style="top: 10%; left: 29%;">
+                <img src="images/confetti-squiggle-7.png" class="confetti small" style="top: 10%; left: 23%;">
+                <img src="images/confetti-star5.png" class="confetti small" style="top: 10%; left: 65%;">
+                <img src="images/confetti-star5.png" class="confetti extrasmall" style="top: 16%; left: 37%;">
+                <img src="images/confetti-dot4.png" class="confetti extrasmall" style="top: 10%; left: 60%;">
+                <img src="images/confetti-dot3.png" class="confetti extrasmall" style="top: 13%; left: 41%;">
+                <h2>
+                    Collections
+                </h2>
+
+                <br>
+
+                <div class="artworks">
+                    <div>
+                        <img src="images/MOBAZOO.jpg" alt="MOBAZOO" />
+                        <p>MoBA Zoo</p>
+                    </div>
+
+                    <div>
+                        <img src="images/poor-traits.jpg" alt="Poor Traits">
+                        <p>Poor Traits</p>
+                    </div>
+                </div>
+
+                <div class="button" onclick="goTo('artlist')">
+                    Explore More →
+                </div>
+            </div>
+        </section>
+
+        <section class="section visit">
+            <div class="content">
+                <h2>
+                    Visit
+                </h2>
+
+                <br>
+
+                <p>Location: L1250 Massachusetts Ave Boston, MA 02125, USA</p>
+                <p> Contact: +1 (781) 444-6757 / MOBA@MuseumOfBadArt.org</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- History -->
+    <div id="history" class="screen">
+        <main class="history-screen">
+            <img src="images/confetti-star.png" class="confetti large" style="top: 150px; left: 80%;">
+            <img src="images/confetti-star2.png" class="confetti medium" style="top: 200px; left: -12%;">
+            <img src="images/confetti-squiggle-2.png" class="confetti large" style="top: 120px; left: 10%;">
+            <img src="images/confetti-dot2.png" class="confetti small" style="top: 100px; left: 100%;">
+            <img src="images/confetti-squiggle-4.png" class="confetti medium" style="top: 200px; left: 110%;">
+            <img src="images/confetti-dot1.png" class="confetti extrasmall" style="top: 180px; left: -15%;">
+            <img src="images/confetti-dot5.png" class="confetti extrasmall" style="top: 150px; left: 70%;">
+            <img src="images/confetti-squiggle-7.png" class="confetti small" style="top: 150px; left: 1%;">
+            <img src="images/confetti-star4.png" class="confetti small" style="top: 220px; left: 20%;">
+
+            <h2 class="section-heading history-title">
+                History
+            </h2>
+
+            <h3 class="section-heading">
+                Founding and Early Origins
+            </h3>
+            <p>The Museum of Bad Art was founded by antique dealer Scott Wilson, who discovered what has become the
+                museum's signature piece—Lucy in the Field with Flowers—protruding from between two trash cans on a
+                Roslindale-area curb in Boston, among some garbage waiting to be collected. Wilson was initially
+                interested only in the frame, but when he showed the picture to his friend Jerry Reilly, the latter
+                wanted both the frame and the painting. He exhibited Lucy in his home, and encouraged friends to look
+                for other bad art and notify Wilson of what they found. When Wilson acquired another "equally lovely"
+                piece and shared it with Reilly, they decided to start a collection. Reilly and his wife, Marie Jackson,
+                held a party in their basement to exhibit the collection to date, and hosted a reception they
+                facetiously titled "The Opening of the Museum of Bad Art".</p>
+
+            <h3 class="section-heading">
+                Early Expansion and the Dedham Location
+            </h3>
+            <p>Regular showings of the pieces collected by Wilson, Reilly, and Jackson (and those donated by others),
+                became too much for Reilly and Jackson's small home in West Roxbury, Massachusetts, as hundreds of
+                people attended the receptions. The founders' initial attempt at dealing with their constrained
+                exhibition space was to create the Virtual Museum Of Bad Art, a CD-ROM with a cast of 95 people that
+                presented the MOBA art collection in a fictional imaginary museum. This fictional MOBA allowed the
+                visitors not only to view the paintings but to go behind the scenes in the fictional museum.</p>
+
+            <br>
+
+            <p>The MOBA was officially founded in 1993, and its first exhibition was presented in March 1994.</p>
+
+            <br>
+
+            <p>Word of the museum's collection continued to spread until, according to "Permanent Interim Acting
+                Director" Louise Reilly Sacco, "it got completely out of hand" when a group of senior citizens on a tour
+                bus stopped to see it. In 1995, the display space was moved to the basement of the Dedham Community
+                Theatre, a building with an aesthetic described in 2004 as "ramshackle". The museum in Dedham had no
+                fixed operating hours, instead being open while the theater upstairs was open. As The Boston Globe
+                notes, the art collection was appropriately placed "just outside the men's room", where sounds and
+                smells carry to the collection and the constant flushing of the toilet "supposedly helps maintain a
+                uniform humidity", according to the South China Morning Post.</p>
+
+            <h3 class="section-heading">
+                Exhibitions and Traveling Shows
+            </h3>
+            <p>In MOBA's early days, the museum hosted traveling shows; on one occasion the works were hung from trees
+                in the woods on Cape Cod for the "Art Goes Out the Window—The Gallery in the Woods". Bad music was
+                played during the public viewings to complete the ambiance. In an exhibition titled "Awash in Bad Art",
+                18 pieces of art were covered in shrink wrap for "the world's first drive-thru museum and car wash".
+                Marie Jackson, formerly the Director of Aesthetic Interpretation noted, "We didn't put any watercolors
+                in there." A 2001 exhibition, "Buck Naked—Nothing But Nudes" featured all of the MOBA nudes hung in a
+                local spa. </p>
+
+            <br>
+
+            <p> MOBA features its works in rotating collections. In 2003, "Freaks of Nature" focused on landscape
+                artwork "gone awry". A 2006 exhibit titled "Hackneyed Portraits" was designed to "pick up some of the
+                slack" when the David Hockney show at Boston's Museum of Fine Arts closed. MOBA unveiled its show
+                "Nature Abhors a Vacuum and All Other Housework" in 2006; this format continues on the museum's website.
+            </p>
+
+            <h3 class="section-heading">
+                Later Expansions, Closures, and Reopenings
+            </h3>
+            <p>A second gallery opened in 2008 at the Somerville Theatre in Davis Square, Somerville, Massachusetts,
+                where the collection was placed near both the women's and men's restrooms. Although the original gallery
+                was free and open to the public, the second is free with admission to the theater or with a pass
+                requested from the museum. Exhibitions titled "Bright Colors / Dark Emotions" and "Know What You Like /
+                Paint How You Feel" have been held in the academic gallery at Montserrat College of Art in Beverly,
+                Massachusetts. One of MOBA's goals is "to take bad art on the road", according to Sacco. Pieces from
+                MOBA's collection have been on display in museums in New York City, Ottawa, Taipei, and Virginia.</p>
+
+            <br>
+
+            <p>In February 2009, MOBA announced a fundraiser to assist the Rose Art Museum at Brandeis University, which
+                was seriously considering whether to sell masterpieces because of the 2008 financial crisis, made worse
+                for the university by some of its donors losing money in the Madoff investment scandal. Current MOBA
+                curator Michael Frank placed Studies in Digestion—a four-panel piece showing four renditions of the
+                human digestive tract in various media by artist Deborah Grumet—on eBay for a buy-it-now price of
+                $10,000; the first bid was $24.99. It eventually sold for $152.53 and the meager proceeds went to the
+                Rose Art Museum, while both museums gained publicity.</p>
+
+            <br>
+
+            <p>In 2010, the museum opened a third location in the offices of the Brookline Interactive Group.</p>
+
+            <br>
+
+            <p>In December 2012, the branch at the Dedham Community Theater closed to convert the space into a screening
+                room. Another branch later opened at the New England Wildlife Center in South Weymouth. The Somerville
+                location was closed in 2019 when theater owners sought to renovate the basement space it occupied. All
+                locations closed after the breakout of the COVID-19 pandemic in 2020. The museum reopened at the
+                Dorchester Brewing Company's tap room in Boston in September 2022.</p>
+
+
+        </main>
+    </div>
+
+    <!-- Collections -->
+    <div id="artlist" class="screen">
+        <main class="collection-screen">
+            <img src="images/confetti-star3.png" class="confetti large" style="top: 150px; left: 75%;">
+            <img src="images/confetti-squiggle-1.png" class="confetti medium" style="top: 190px; left: 15%;">
+            <img src="images/confetti-dot3.png" class="confetti small" style="top: 170px; left: 85%;">
+            <img src="images/confetti-dot3.png" class="confetti extrasmall" style="top: 180px; left: 13%;">
+            <img src="images/confetti-squiggle-7.png" class="confetti small" style="top: 200px; left: 70%;">
+            <img src="images/confetti-dot4.png" class="confetti extrasmall" style="top: 200px; left: 65%;">
+            <img src="images/confetti-star5.png" class="confetti medium" style="top: 150px; left: 22%;">
+            <img src="images/confetti-dot4.png" class="confetti small" style="top: 210px; left: 30%;">
+            <img src="images/confetti-star.png" class="confetti extrasmall" style="top: 150px; left: 70%;">
+            <img src="images/confetti-star.png" class="confetti small" style="top: 170px; left: 35%;">
+
+            <h2 class="section-heading collection-title">
+                Collections
+            </h2>
+
+            <div class="collection-list">
+                <div class="entry left">
+                    <img src="images/MOBAZOO.jpg" alt="MOBAZOO" />
+                    <div class="entry-info">
+                        <a class="tag" href="https://museumofbadart.org/zoo/" target="_blank">
+                            MoBA Zoo →
+                        </a>
+                        <p><strong>Bruno Tiger</strong><br><em>Anonymous • June 2010</em></p>
+                    </div>
+                </div>
+
+                <div class="entry right">
+                    <img src="images/poor-traits.jpg" alt="Pink Woman Ascending" />
+                    <div class="entry-info">
+                        <a class="tag" href="https://museumofbadart.org/poor-traits/" target="_blank">
+                            ← Poor Traits
+                        </a>
+                        <p><strong>Pink Woman Ascending</strong><br><em>Anonymous • October 2010</em></p>
+                    </div>
+                </div>
+
+                <div class="entry left">
+                    <img src="images/TheSportsSection.jpg" alt="Point of Impact" />
+                    <div class="entry-info">
+                        <a class="tag" href="https://museumofbadart.org/sports/" target="_blank">
+                            The Sports Section →
+                        </a>
+                        <p><strong>Point of Impact</strong><br><em>Anna K. • May 2011</em></p>
+                    </div>
+                </div>
+
+                <div class="entry right">
+                    <img src="images/IntheNood.jpg" alt="Chiquita" />
+                    <div class="entry-info">
+                        <a class="tag" href="https://museumofbadart.org/in-the-nood/" target="_blank">
+                            ← In the Nood
+                        </a>
+                        <p><strong>Chiquita</strong><br><em>Anonymous • December 2006</em></p>
+                    </div>
+                </div>
+
+                <div class="entry left">
+                    <img src="images/Dopplehangers.jpg" alt="Jazz Hands" />
+                    <div class="entry-info">
+                        <a class="tag" href="https://museumofbadart.org/dopplehangers/" target="_blank">
+                            Dopplehangers →
+                        </a>
+                        <p><strong>Jazz Hands</strong><br><em>Linda James • March 2014</em></p>
+                    </div>
+                </div>
+
+                <div class="entry right">
+                    <img src="images/UnlikelyLandscapes.jpg" alt="Two Trees in Love" />
+                    <div class="entry-info">
+                        <a class="tag" href="https://museumofbadart.org/unlikely-landscapes/" target="_blank">
+                            ← Unlikely Landscapes
+                        </a>
+                        <p><strong>Two Trees in Love </strong><br><em>Julie Seelig • May 2006</em></p>
+                    </div>
+                </div>
+
+                <div class="entry left">
+                    <img src="images/UnseenForces.jpg" alt="Baby Atlas" />
+                    <div class="entry-info">
+                        <a class="tag" href="https://museumofbadart.org/unseen-forces/" target="_blank">
+                            Unseen Forces →
+                        </a>
+                        <p><strong>Baby Atlas </strong><br><em>Anonymous • September 2009</em></p>
+                    </div>
+                </div>
+
+                <div class="entry right">
+                    <img src="images/AyeAyeAye.jpg" alt="Eyes and Lips" />
+                    <div class="entry-info">
+                        <a class="tag" href="https://museumofbadart.org/aye-aye-aye/" target="_blank">
+                            ← Aye Aye Aye
+                        </a>
+                        <p><strong>Eyes and Lips </strong><br><em>Jeanne Galarneau Kent • December 2008</em></p>
+                    </div>
+                </div>
+
+                <div class="entry left">
+                    <img src="images/Oozing My Religion.jpg" alt="Madonna and Baby" />
+                    <div class="entry-info">
+                        <a class="tag" href="https://museumofbadart.org/oozing/" target="_blank">
+                            Oozing My Religion →
+                        </a>
+                        <p><strong>Madonna and Baby </strong><br><em>Anonymous • May 2017</em></p>
+                    </div>
+                </div>
+
+                <div class="entry right">
+                    <img src="images/LifeonaBarstool.jpg" alt="Life on a Barstool" />
+                    <div class="entry-info">
+                        <a class="tag" href="https://museumofbadart.org/rainbow/" target="_blank">
+                            ← The Rainbow Collection
+                        </a>
+                        <p><strong>Life on a Barstool </strong><br><em>Anonymous • July 1998</em></p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Influence -->
+    <div id="influence" class="screen">
+        <main class="influence-screen">
+            <img src="images/confetti-star4.png" class="confetti large" style="top: 150px; left: 12%;">
+            <img src="images/confetti-star2.png" class="confetti medium" style="top: 220px; left: 80%;">
+            <img src="images/confetti-squiggle-1.png" class="confetti medium" style="top: 120px; left: 70%;">
+            <img src="images/confetti-squiggle-7.png" class="confetti medium" style="top: 180px; left: 0%;">
+            <img src="images/confetti-dot5.png" class="confetti extrasmall" style="top: 180px; left: 85%;">
+            <img src="images/confetti-dot2.png" class="confetti extrasmall" style="top: 120px; left: 5%;">
+            <img src="images/confetti-squiggle-4.png" class="confetti small" style="top: 200px; left: 70%;">
+            <img src="images/confetti-star3.png" class="confetti small" style="top: 130px; left: 30%;">
+
+            <h2 class="section-heading influence-title">
+                Influence
+            </h2>
+
+            <h3>Mentions and Inspirations</h3>
+            <p>The Museum of Bad Art has been mentioned in hundreds of international publications, as well as in
+                Boston-area travel guides highlighting offbeat attractions. It has inspired similar collections or
+                events in Australia, Ohio, and Seattle. </p>
+
+            <br>
+
+            <p>Commedia Beauregard, a theatre company whose mission focuses on translation, was inspired by MOBA's
+                mission to create their Master Works series of short play festivals. The company commissioned six
+                playwrights to write short plays based on MOBA artworks. Master Works: The MOBA Plays was originally
+                performed in January and February 2009 in Minneapolis, Minnesota. The plays were based on the MOBA
+                pieces Mana Lisa, Invasion of the Office Zombies, My Left Foot, Bone-Juggling Dog in Hula Skirt, Gina's
+                Demons, and Lulli, Fowl and Gravestone. After moving to Chicago, the company again produced The MOBA
+                Plays in March and April 2011, using three of the original plays and translating three new paintings.
+            </p>
+
+            <h3>Responses to Bad Art</h3>
+            <p>The Dedham Community Theater housed the first MOBA gallery in its basement. Museum visitors can sign a
+                guest book, and leave comments. One Canadian visitor wrote: "This collection is disturbing, yet I can't
+                seem to look away...Just like a hideous car accident." Another visitor observes: "Her nipples follow you
+                around the room. Creepy!" </p>
+
+            <br>
+
+            <p>Response to MOBA's opening and continued success is, for some, evocative of the way art is treated in
+                society. MOBA works have been described as "unintentionally hilarious", similar to the films of Ed Wood.
+                Visitors—and even MOBA staff—often laugh out loud at displays. In Gullible's Travels, Cash Peters
+                contrasted this behavior with what is expected of patrons at galleries such as Southern California's
+                Getty Museum; though viewers might find the art at the Getty equally hilarious, were they to show it
+                they would almost certainly be thrown out.</p>
+
+            <h3>Educational and Cultural Reflections</h3>
+            <p>In 2006, Louise Reilly Sacco participated in a panel discussion with authorities on art and architecture
+                about standards of beauty and ugliness in art, published in Architecture Boston. She remarked that
+                teachers bring high school art students to MOBA, then to the Museum of Fine Arts, Boston (MFA). Sacco
+                observes, "Somehow MOBA frees kids to laugh and point, to have their own opinions and argue about
+                things. Then they take the experience to the MFA, where they might otherwise feel intimidated... Maybe
+                the ugly ... frees us." Sacco believes that extreme ugliness is more striking than extreme beauty, and
+                it forces people to think more deeply about what is wrong or misplaced. She connects this rigid judgment
+                of what does not conform to beauty with intolerance for physical imperfections in people, noting that
+                such rigidity sometimes causes parents to "fix" the perceived flaws in their children's faces to keep
+                them from suffering later.</p>
+
+            <h3>Critical Perspectives and Cultural Trends</h3>
+            <p>The Somerville Theatre once housed a MOBA gallery in its basement. Jason Kaufman, a Harvard professor who
+                teaches the sociology of culture, wrote that MOBA is part of a social trend he calls "annoyism", where
+                mass media venues promote performances and artists who mix the deliberately bad with the clever. The
+                Museum of Bad Art happens to embody this trend, and further illustrates its central aim to mock the
+                judgment system by which people identify what is bad from what is not. For Kaufman, "The beauty of
+                MOBA—though beauty is surely the wrong word—is the way it undermines aesthetic criteria from numerous
+                angles." Amy Levin, describing how American history and culture have been shaped by small local museums,
+                suggests that MOBA is a parody of art itself, and that MOBA's commentary, newsletter, website, and
+                publications mock museums as authorities on what is good art. The director of the Ellipse Arts Center, a
+                gallery in Arlington, Virginia, that hosted a traveling exhibition of MOBA works, was astonished to see
+                people's exuberant laughter because no one visiting the Ellipse had ever responded to art this way. She
+                observed, "If I didn't have a sign on the door, people might not think it's so bad. Who's to say what's
+                bad and what's good?" </p>
+
+            <h3>Broader Cultural Commentary</h3>
+            <p>Deborah Solomon, in The New York Times Magazine, asserted that MOBA's success reflects a trend in modern
+                art among artists and audiences. The arrival of abstraction and modern art in the early 20th century
+                made art appreciation more esoteric and less accessible for the general community, showing that "the
+                American public ... think[s] of museums as intimidating places ruled by a cadre of experts whose taste
+                and rituals [seem] as mysterious as those of Byzantine priests." Bad art is in vogue, as a movement that
+                rejects the anti-sentimentalism that marked earlier disdain for artists such as Norman Rockwell or
+                Gustave Moreau, according to Solomon. Garen Daly, a MOBA fan on several Boston-area art councils, stated
+                in 1995, "I go to a lot of openings, and sometimes they're pretty damn stuffy." Not only does the Museum
+                of Bad Art offer different fare for the eyes, but instead of the wine and cheese that is provided for
+                most museum and art gallery visitors, a MOBA show provides its patrons with Kool-Aid, Fluffernutters and
+                cheese puffs.</p>
+
+            <h3>Use in Academic Research</h3>
+            <p>The works in the Museum of Bad Art have been used in academic studies as a standard of reference for low
+                quality art. In one such study, published in Perspectives on Psychological Science, researchers tested
+                the consistency of responses between people asked to make "gut" judgments versus those who gave
+                conscious well-reasoned responses regarding the quality of various pieces of art. The researchers showed
+                respondents images from MOBA and New York's Museum of Modern Art (MoMA) and asked them to rate each
+                painting on a scale with two ends representing "Very Attractive" and "Very Unattractive". The study
+                found that those who reasoned in conscious thought were neither more accurate nor as consistent in their
+                ratings. Study participants identified and rated MoMA art higher quality, but those who used conscious
+                reasoning did not find MoMA art more attractive than those who rated with "gut" judgments. Furthermore,
+                the deliberators did not find MOBA art as unattractive as those with quicker response times. The study
+                concluded that people who make quick judgments do so more consistently, with no significant change to
+                accuracy.</p>
+
+            <br>
+
+            <p>In another study that appeared in the British Journal of Psychology, researchers tested how respondents
+                considered balance in artwork composition of differing qualities. Fifteen pairs of works from
+                ArtCyclopedia by artists such as Paul Gauguin, Georgia O'Keeffe, and Georges-Pierre Seurat, and fifteen
+                from MOBA by artists including Doug Caderette, Unknown, and D. Alix were shown to participants. In each,
+                an item in the painting was shifted vertically or horizontally, and respondents were asked to identify
+                the original. The researchers hypothesized that respondents would identify balance and composition more
+                easily in the traditional masterworks, and that study participants would find a greater change of
+                quality when items were shifted in traditional masterworks than they would in MOBA pieces. However, the
+                study concluded that balance alone did not define art of higher quality for the participants, and that
+                respondents were more likely to see that original art was more balanced than the altered version, not
+                necessarily that the traditional art was significantly better composed and balanced than MOBA works.</p>
+        </main>
+    </div>
+
+    <script>
+        function goTo(viewId) {
+            document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+            const view = document.getElementById(viewId);
+            if (view) {
+                view.classList.add('active');
+                window.scrollTo(0, 0);
+            }
+
+            document.body.className = `${viewId}-active`;
+        }
+
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+
+</body>
+
+</html>
